@@ -1,0 +1,100 @@
+add pull_request to 'on' (#698)
+allow running ci manually (#692)
+Different workflow (#683)
+pull tags in action (#660)
+ensure stopwords are removed before plural normalization
+add example images
+don't use python2 by default in examples, fix stopwords in colored.py
+use setuptools, add install_requires
+add doi to readme
+add anaconda cloud instruction to readme.
+allow a custom regexp
+lower-case stopwords before using them.
+add author and author email in setup.py
+bump version for release
+add the "pil way" of showing an image to the simple.py
+remove scipy dependency for image reading
+add slight variant to simple.py
+add relative_scaling parameter, deprecate ransk_only
+draft of more sensible scaling
+store sorted / normalized frequencies, make the max a float
+fix sorting and normalization: wasn't applied if frequencies were given directly.
+bump version again for pypi using fixed setup.py
+remove cython dependency
+hopefully fixing cython built
+bump version for pipy
+use container environment on travis
+Include a droid sans mono ttf file
+add C file for distribution, bump minor version
+dont --use-mirror
+factor out computational part
+bump verision for new image coloring feature
+add parrot example because I wasted half an hour on it
+fix boolean mask
+update docs / example title for colring
+update examples, docs.
+some docs, add to __init__
+add (not that great) example using alice
+pass word, not word frequency to color_func in recolor.
+working coloring
+more robust handling of mask images
+slightly updated / better docs
+fix sphinx errors.
+add "generate_from_text" and "generate_from_frequencies" functions for easier discoverability.
+adjust readme on how to set the font_path
+minor fixes for website
+set title on index page
+nojekyll
+add license and travis shields to readme
+add travis config
+fix relative import for python3
+make process_text and fit_words public again
+Add docs / sphinx page
+update readme a bit.
+remove png from gitignore
+add max font size argument
+adjust simple example to new interface
+Add example using mask
+put license of alice in another file.
+Add background color argument, fix random state conversion in recoloring.
+Make things deterministic, add tests for masks.
+some tests
+refactor everything into class
+add support for mask images
+changes paths to amueller repo
+DOC add comment about FONT_PATH to README.md
+FIX removed ``__init__.py`` because it makes building painful
+DOC add numpy to dependencies
+enh fix setup.py to actually build in place (was screwed up by adding the __init__.py)
+Add ``__init__.py``, add ``ranks_only`` option.
+Merge pull request #6 from BioGeek/patch-1
+Merge pull request #5 from langner/master
+Explicit imports for compatibility with Pillow, added ``__init__.py``
+Shall we comment on this?
+ENH removed helper function, moved all code to the main function. added docstring and bubbling. also makefile
+Merge pull request #3 from ianozsvald/master
+DOC add comment about older scikit-learn version to readme.
+Remove random text-file
+more whitespace in readme
+Rephrased readme, added cython >= 0.16 requirement
+FIX for 64bit python
+a little readme
+added license
+comment about cumsums...
+cleanup
+added constitution text
+minor improvements
+enh more comments, redraw in color, add margin argument
+Merge branch 'master' of github.com:amueller/word_cloud
+Initial commit
+woah that was unexpected
+cleanup. looking good :)
+fast with cython
+toying with partial rebuild of integral image
+faster via grey
+cleanup
+slight simplification
+integral image way
+slight cleanup, working nicely.
+getting there....
+trying out some word cloud stuff
